@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/90 dark:bg-neutral-800/90 backdrop-blur-lg border border-primary-100 dark:border-primary-900/20;
+  }
+
+  .glass-button {
+    @apply bg-white/60 dark:bg-neutral-800/60 backdrop-blur-md hover:bg-white/80 dark:hover:bg-neutral-800/80 transition-all;
+  }
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-100 dark:bg-neutral-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-500/50 rounded-full hover:bg-primary-500/70;
+}
+
+

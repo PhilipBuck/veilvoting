@@ -1,0 +1,129 @@
+{
+  "common": {
+    "connect": "Connect Wallet",
+    "disconnect": "Disconnect",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "save": "Save",
+    "delete": "Delete"
+  },
+  "wallet": {
+    "notConnected": "Wallet not connected",
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "wrongNetwork": "Wrong network",
+    "switchNetwork": "Switch to {network}",
+    "balance": "Balance",
+    "address": "Address"
+  },
+  "proposal": {
+    "title": "Proposal",
+    "proposals": "Proposals",
+    "create": "Create Proposal",
+    "createNew": "Create New Proposal",
+    "viewDetails": "View Details",
+    "status": "Status",
+    "active": "Active",
+    "ended": "Ended",
+    "revealed": "Results Revealed",
+    "notRevealed": "Results Not Revealed",
+    "creator": "Creator",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "duration": "Duration",
+    "voters": "Voters",
+    "minVoters": "Minimum Voters",
+    "options": "Options",
+    "description": "Description",
+    "noProposals": "No proposals yet",
+    "loadMore": "Load More"
+  },
+  "vote": {
+    "cast": "Cast Vote",
+    "casting": "Casting Vote...",
+    "encrypting": "Encrypting your vote...",
+    "encrypted": "Vote encrypted successfully",
+    "submitted": "Vote submitted!",
+    "alreadyVoted": "You have already voted",
+    "notStarted": "Voting has not started",
+    "ended": "Voting has ended",
+    "selectOption": "Select an option",
+    "yourChoice": "Your choice",
+    "encryptedVote": "Vote is encrypted",
+    "revealMyVote": "Reveal My Vote",
+    "revealing": "Revealing..."
+  },
+  "results": {
+    "title": "Results",
+    "reveal": "Reveal Results",
+    "revealing": "Revealing results...",
+    "revealed": "Results revealed",
+    "totalVotes": "Total Votes",
+    "quorumNotMet": "Quorum not met",
+    "quorumMet": "Quorum met",
+    "winner": "Winner",
+    "tie": "Tie",
+    "noVotes": "No votes cast"
+  },
+  "history": {
+    "title": "My Voting History",
+    "noHistory": "No voting history",
+    "votedOn": "Voted on",
+    "viewProposal": "View Proposal"
+  },
+  "create": {
+    "step1": "Basic Information",
+    "step2": "Voting Options",
+    "step3": "Review & Submit",
+    "title": "Title",
+    "titlePlaceholder": "Enter proposal title (max 100 characters)",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter detailed description",
+    "option": "Option",
+    "addOption": "Add Option",
+    "removeOption": "Remove Option",
+    "minOptions": "At least 2 options required",
+    "maxOptions": "Maximum 10 options allowed",
+    "durationLabel": "Voting Duration",
+    "duration1h": "1 Hour (Test)",
+    "duration1d": "1 Day",
+    "duration3d": "3 Days",
+    "duration7d": "7 Days",
+    "durationCustom": "Custom",
+    "minVotersLabel": "Minimum Voters Required",
+    "minVotersHelp": "Proposal needs at least this many voters",
+    "preview": "Preview",
+    "creating": "Creating proposal...",
+    "created": "Proposal created successfully!",
+    "error": "Failed to create proposal"
+  },
+  "nav": {
+    "home": "Home",
+    "proposals": "Proposals",
+    "create": "Create",
+    "history": "My Votes",
+    "about": "About"
+  },
+  "filter": {
+    "all": "All",
+    "active": "Active",
+    "ended": "Ended",
+    "myProposals": "My Proposals",
+    "participated": "Participated"
+  },
+  "sort": {
+    "latest": "Latest",
+    "oldest": "Oldest",
+    "endingSoon": "Ending Soon",
+    "mostVotes": "Most Votes"
+  }
+}
+
+
